@@ -1,7 +1,9 @@
 package puppy
 
-import "fmt"
+func Bark() string {
+	return "Woof!"
+}
 
-func main() {
-	fmt.Println("vim-go")
+func Barks() string {
+	return "Woof! Woof! Woof!"
 }
